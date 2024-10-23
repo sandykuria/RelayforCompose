@@ -1,0 +1,235 @@
+{
+  "name": "login",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "Oq8HNLhm8GyoqEbp3xyscx",
+    "node": "1:10",
+    "version": "6901806397",
+    "component-id": "0003ef593d75924b15b0b71f764795367bcfc03c"
+  },
+  "default": "Login",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "text",
+        "id": "Login"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "text",
+        "id": "Sign up"
+      }
+    ],
+    "modes": {
+      "Login": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Group 1",
+              "Group 2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Group 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 56.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 65.0
+              }
+            },
+            "tap-handler": "$onClickLogin",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 304.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 1",
+              "Login"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 56.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 162.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 304.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 2",
+              "Sign up"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 304.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "Login",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 77.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 12.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 162.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              }
+            },
+            "text-content": "Login",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.0,
+            "line-height": 1.1990000406901042,
+            "typeface": "Inria Serif"
+          },
+          {
+            "id": "Rectangle 2",
+            "tap-handler": "$onClickSignup",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 304.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 51.0
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "Sign up",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 77.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 12.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 162.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              }
+            },
+            "text-content": "Sign up",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 18.0,
+            "line-height": 1.1990000406901042,
+            "typeface": "Inria Serif"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onClickLogin": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "onClickSignup": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Login",
+      "size": {
+        "width": 428.0,
+        "height": 926.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
